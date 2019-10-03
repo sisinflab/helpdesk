@@ -5,22 +5,23 @@ margin-right: 20px;
 }
 
 .contenitore {
-  @media (max-width: 620px) {
+    @media (max-width: 620px) {
       text-align: center;
-    }
-  &__image {
+    }	
+}
+
+.contenitore .img {
     display: inline-block;
     vertical-align: top;
-  }
-  &__text {
+}
+
+.contenitore .p {
     display: inline-block;
     width: 46%;
     @media (max-width: 620px) {
       width: 100%;
-    }
-  }
+    }	
 }
-
 
 
 
