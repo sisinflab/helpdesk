@@ -4,6 +4,25 @@ float:left;
 margin-right: 20px:
 }
 
+.contenitore {
+border: 1px solid #FFFFFF;
+height:160px;
+}
+
+@media only screen (max-device-width : 1024px) {
+.immagine {
+border-radius:50%;
+}
+
+.contenitore {
+border: 1px solid #FFFFFF;
+height:160px;
+}
+}
+
+
+
+
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
