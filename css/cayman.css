@@ -4,8 +4,8 @@ float:left;
 margin-right: 20px;
 }
 
-.contenitore {
 @media (max-width: 748px) {
+.contenitore {
 text-align: center !important;
 }
 }
