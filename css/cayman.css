@@ -5,19 +5,19 @@ margin-right: 20px;
 }
 
 .contenitore {
-border: 1px solid #FFFFFF;
+  &__image {
+    display: inline-block;
+    vertical-align: top;
+  }
+  &__text {
+    display: inline-block;
+    width: 46%;
+    @media (max-width: 620px) {
+      width: 100%;
+    }
+  }
 }
 
-@media screen (max-width : 1024px) {
-.immagine {
-border-radius:50%;
-}
-
-.contenitore {
-border: 1px solid #FFFFFF;
-text-align: center;
-}
-}
 
 
 
