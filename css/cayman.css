@@ -7,13 +7,13 @@ margin-right: 20px;
 @media only screen and (max-width: 748px) {
 .contenitore {
 text-align: center !important;
+    margin-bottom:2em;
 }
 }
 
 .contenitore .img {
     display: inline-block;
     vertical-align: top;
-    margin-bottom:2em;
 }
 
 .contenitore .p {
