@@ -11,18 +11,26 @@ text-align: center !important;
 }
 }
 
-.contenitore .img {
-    display: inline-block;
-    vertical-align: top;
+@media only screen and (min-width: 748px) {
+.text_container {
+    width:100%-150px;
+
+float: left;
+}
+.img_container {
+margin-right:20px;
+margin-bottom:3em;
+    float:left;
+    width:150px;
+}
+.contenitore:after{
+content:"";
+display:table;
+clear:both;
+}
 }
 
-.contenitore .p {
-    display: inline-block;
-    width: 46%;
-    @media (max-width: 748px) {
-      width: 100%;
-    }	
-}
+
 
 
 
