@@ -10,6 +10,10 @@
     .immagine {
         margin-bottom: 1.5em;
     }
+    .alert {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 @media only screen and (min-width: 748px) {
