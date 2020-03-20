@@ -28,6 +28,9 @@
         display: table;
         clear: both;
     }
+    .alert {
+        width: 500px;
+    }
 }
 
 
