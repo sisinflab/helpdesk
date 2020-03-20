@@ -16,6 +16,7 @@
     .text_container {
         width: 100%-150px;
         float: left;
+        margin-bottom: 3em;
     }
     .img_container {
         margin-right: 30px;
